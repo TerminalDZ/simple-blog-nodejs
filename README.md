@@ -12,3 +12,5 @@ or edit file server.js
 # start : node server.js
 
 ## Require ;  (express | mysql2 | body-parser | method-override | multer | path)
+
+npm install express mysql2 ejs body-parser method-override multer path
