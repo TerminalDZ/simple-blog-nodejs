@@ -11,4 +11,4 @@ or edit file server.js
 ### database: 'blogdbh'
 # start : node server.js
 
-## Require  express | mysql2 | body-parser | method-override | multer | path
+## Require ;  (express | mysql2 | body-parser | method-override | multer | path)
