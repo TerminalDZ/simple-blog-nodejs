@@ -58,7 +58,6 @@ app.post('/articles', upload.single('image'), (req, res) => {
     res.redirect('/');
   });
 });
-
 app.get('/articles/:id', (req, res) => {
   const articleId = req.params.id;
   connection.query('SELECT * FROM articles WHERE id = ?', [articleId], (error, results) => {
